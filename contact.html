@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Elo Mertanen</title>
+				<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+					<link href="styles.css" rel="stylesheet">
+					<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+					<link rel="icon" type="image/x-icon" href="kuvat12/favicon.ico"> <!--Favicon-->
+					
+</head>
+<body>
+<header>
+				
+					<img src="kuvat12/pilvi.gif" alt="not found" width="350" height="200" id="pilvet3">
+					<img src="kuvat12/pilvi.gif" alt="not found" width="450" height="300" id="pilvet4">
+					<!-- Lähde pilvelle: https://www.onlygfx.com/wp-content/uploads/2019/12/vintage-cloud-drawing-2-1.png-->
+					</header>
+					
+					<header id="navvbar">
+						<nav class="navbar navbar-expand-lg bg-transparent">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="work.html">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Q&A.html">Q&A</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+							
+							
+<br>
+
+<a href ="mailto:elo.mertanen@laurea.fi?subject">
+You can always email me too!
+</a>
+<br>
+<br>
+
+<form action="/action_page.php" class="was-validated">
+  <div class="col-md-4">
+  
+    <label for="uname" class="form-label">First name</label>
+    <input type="text" class="form-control" id="uname" placeholder="Enter first name" name="uname" required>
+    <div class="valid-feedback"> Valid </div>
+	<div class="invalid-feedback">Please fill out this field.</div>
+    
+	
+	</div>
+     <div class="col-md-6">
+   <label for="lname" class="form-label">Last name</label>
+    <input type="text" class="form-control" id="lname" placeholder="Enter email" name="lname" required>
+    <div class="valid-feedback"> Valid </div>
+	<div class="invalid-feedback">Please fill out this field.</div>
+	</div>
+	
+    <div class="col-md-6">
+   <label for="email" class="form-label">Email</label>
+    <input type="text" class="form-control" id="email" placeholder="Enter email" name="email" required>
+    <div class="valid-feedback"> Valid </div>
+	<div class="invalid-feedback">Please fill out this field.</div>
+	
+	</div>
+	
+	 <div class="col-md-3">
+ <label for="city" class="form-label">City</label>
+    <input type="text" class="form-control" id="city" placeholder="Enter city" name="city" required>
+    <div class="valid-feedback"> Valid </div>
+	<div class="invalid-feedback">Please fill out this field.</div>
+	</div>
+	
+	
+ <div class="col-md-2">
+<label for="zip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="zip" placeholder="Enter zip" name="zip" required>
+    <div class="valid-feedback"> Valid </div>
+	<div class="invalid-feedback">Please fill out this field.</div>
+	</div>
+
+	<label for="comment">Comments:</label>
+<textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+	
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+      <label class="form-check-label" for="invalidCheck3">
+        Agree to terms and conditions
+      </label>
+	     <div class="valid-feedback"></div>
+      <div id="invalidCheck3Feedback" class="invalid-feedback">
+		
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit" onclick="klikkaus()"> Submit form</button>
+
+
+<p id="palaute"></p>
+
+<script>
+function klikkaus() {
+  document.getElementById("palaute").innerHTML = "Message was sent";
+}
+</script>
+	
+	
+	
+	
+  </div>
+  <br>
+</form>
+<br>
+							<!-- Footeri -->
+<footer class="text-center text-lg-start text-muted">
+  
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+  
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with me on social networks:</span>
+    </div>
+
+    <div>
+      <a href="https://discord.com/channels/@soosi0463" target="_blank">
+        <img src="kuvat12/discord.png" alt="not found" width="35" height="35">
+        </a>
+            <a href="https://github.com/Weesoi" target="_blank">
+        <img src="kuvat12/github.png" alt="not found" width="35" height="35">
+        </a>
+            <a href="https://twitter.com/weesoi" target="_blank">
+        <img src="kuvat12/twitter.png" alt="not found" width="35" height="35">
+        </a>
+            <a href="https://www.linkedin.com/in/elo-mertanen-662705252/?originalSubdomain=fi" target="_blank">
+        <img src="kuvat12/linkedin.png" alt="not found" width="35" height="35">
+        </a>
+    </div>
+  </section>
+</footer>
+<!-- Footeri -->
+							
+
+			<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
