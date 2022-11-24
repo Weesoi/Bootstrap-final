@@ -9,15 +9,18 @@ overflow: hidden;}
 navbar {background-color: #F4D03F;}
 
 .tekstitausta { background-color: white;
-	font-size: 20px;}
+	font-size: 20px;
+	padding: 70px;}
 
 #ft { font-size: 15px; 
 }
  
+
  #kolumn {
   border-top: 5px solid black;
   display: block;
    overflow-wrap: break-word;
+   padding: 70px;
 } 
 
 	
